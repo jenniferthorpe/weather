@@ -29,9 +29,9 @@ const MeetingView = () => {
           ))}
         </div>
       ) : joined && joined === 'JOINING' ? (
-        <p>Joining the meeting...</p>
+        <p>Connecting to camera...</p>
       ) : (
-        <button onClick={joinMeeting}>Join the meeting</button>
+        <button onClick={joinMeeting}>Access weather page</button>
       )}
     </div>
   );
